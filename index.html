@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 07</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburguer = document.querySelector('.hamburguer');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburguer.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
+
+</script>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+        <img src="./img/faster-logo.jpeg" width="100" alt="Logo faster" class="logo">
+                
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#pages">Pages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="get-quote" onclick="location.href='#quote';">Get A Quote</button>
+            <div class="hamburguer" aria-label="toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </nav>
+    </header>
+    <div class="contact-service">
+        <h1>Safe & Faster</h1>
+        <h2>Logistics Services</h2>
+        <form class="contact-form"> <input type="text" placeholder="Tracking id"><button>Tracking id</button></form>
+        </div>
+    <section class="quote-section">
+        <div class="quote-container">
+            <div class="info">
+                <h3>Get a Quote</h3>
+                <h2>Request a Free Quote</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, iusto quaerat cupiditate vero voluptates pariatur.</p>
+                <div class="stats">
+                    <div>
+                        <h3>225</h3>
+                        <p>Skilled Experts</p>
+                    </div>
+                    <div>
+                        <h3>1050</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div>
+                        <h3>2500</h3>
+                        <p>Complete projects</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="form">
+                <form action="#"><input type="text" placeholder="Your Name" required> <input type="Email" placeholder="Your Email" required>
+                    <select required>
+                    <option value="" disabled selected>Select A Service</option>
+                    <option value="Service1">Service 1</option>
+                    <option value="Service2">Service2</option>
+                    <option value="Service3">Service3</option>
+                    </select>
+                    <button type="submit" class="botao">Get A Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="pricing">
+        <div class="container">
+            <h2>Affordable Pricing Packages</h2>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h3>$49/<small>mo</small></h3>
+                    <p><span class="plano">Basic</span></p>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>Bootstrap 4</li>
+                        <li>Responsive Layout</li>
+                        <li>Compatible with All Browsers</li>
+                    </ul>
+                    <button>Order Now</button>
+                </div>
+                <div class="card">
+                    <h3>$99/<small>mo</small></h3>
+                    <p><span class="plano">Premium</span></p>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>Bootstrap 4</li>
+                        <li>Responsive Layout</li>
+                        <li>Compatible with All Browsers</li>
+                    </ul>
+                    <button>Order Now</button>
+                </div>
+                <div class="card">
+                    <h3>$149/<small>mo</small></h3>
+                    <p><span class="plano">Business</span></p>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>Bootstrap 4</li>
+                        <li>Responsive Layout</li>
+                        <li>Compatible with All Browsers</li>
+                    </ul>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <h2>Meet Our Delivery Team</h2>
+            <div class="team-cards">
+                <div class="team-member">
+                    <img src="./img/trabalhador-1.jpeg" alt="Team Member 1">
+                    <p>Full Name</p>
+                    <span>Designation</span>
+                </div>
+                <div class="team-member">
+                    <img src="./img/trabalhador-2.jpeg" alt="Team Member 2">
+                    <p>Full Name</p>
+                    <span>Designation</span>
+                </div>
+                <div class="team-member">
+                    <img src="./img/trabalhor-3.jpeg" alt="Team Member 3">
+                    <p>Full Name</p>
+                    <span>Designation</span>
+                </div>
+                <div class="team-member">
+                    <img src="./img/trabalhador-4.jpeg" alt="Team Member 4">
+                    <p>Full Name</p>
+                    <span>Designation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="section-header">
+            <h5>Our Blog</h5>
+            <h1>Latest From Blog</h1>
+        </div>
+        
+        <!-- Primeiro Post -->
+    <div class="blog-container">
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="./img/grupo-1.jpeg" alt="Descrição do Post 1">
+            </div>
+            <div class="blog-meta">
+                <img src="./img/autor.jpeg" alt="Foto do Autor">
+                <p>Deived Benício</p>
+                <i class="icon-design"></i>
+                <p>FullStack</p>
+            </div>
+            <div class="blog-content">
+                <h5>Kasd tempor diam sea justo dolor</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptatem voluptas <br> voluptate eos, ut nam ullam</p>
+                <a href="link-do-post.html" class="read-more">Read More</a>
+            </div>
+            <div class="blog-date">
+                <p>01</p>
+                <p>JAN</p>
+            </div>
+        </div>
+        
+        <!-- Segundo Post -->
+        <div class="blog-post">
+            <div class="blog-image">
+                <img src="./img/grupo-2.jpeg" width="300px" = "Descrição do Post 2">
+            </div>
+            <div class="blog-meta">
+                <img src="./img/autor.jpeg" alt="Foto do Autor">
+                <p>Deived Benício</p>
+                <i class="icon-design"></i>
+                <p>FullStack</p>
+            </div>
+            <div class="blog-content">
+                <h5>Kasd tempor diam sea justo dolor</h5>
+                <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Voluptatem voluptas <br> voluptate eos, ut nam ullam.</p>
+                <a href="link-do-post.html" class="read-more">Read More</a>
+            </div>
+            <div class="blog-date">
+                <p>01</p>
+                <p>JAN</p>
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-section">
+                <h4>Get in Touch</h4>
+                <p><i></i>123 Street, New York, USA</p>
+                <p><i></i>+012 345 67890</p>
+                <p><i></i>Email: info@example.com</p><br>
+                <a href="https://www.instagram.com/devdeived/"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/deived-benicio-23323619a/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Our Service</a></li>
+                    <li><a href="#">Pricing Plan</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe for updates</p>
+                <form>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 <span><a href="https://github.com/DevDeived">Deived Benício</a></span>. All Rights Reserved.</p>
+            <div class="footer-links">
+                <span><a href="#">Privacy</a></span>
+                <span><a href="#">Terms</a></span>
+                <span><a href="#">FAQs</a></span>
+                <span><a href="#">Help</a></span>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
