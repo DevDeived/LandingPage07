@@ -3,6 +3,7 @@ body, ul, li, a, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 /* Estilos gerais */
@@ -95,6 +96,10 @@ header {
         text-align: center;
         padding: 10px 0;
         border-radius: 5px;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
     .nav-links.active {
