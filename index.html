@@ -13,7 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelector('.nav-links');
 
     hamburguer.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
+        if (navLinks.classList.toggle('active')) {
+            navLinks.style.display = 'flex'; 
+            navLinks.style.flexDirection = 'column'; 
+            navLinks.style.gap = '10px'; 
+        } else {
+            navLinks.style.display = 'none'; 
+        }
     });
 });
 
