@@ -112,7 +112,6 @@ header {
 }
 
 /*Seção serviço*/
-
 .contact-service {
     background: url('./img/navio.jpeg') no-repeat center center/cover; /*ajuste a imagem de fundo*/
     color: #fff;
@@ -204,8 +203,6 @@ header {
 .info .star div {
     margin-bottom: 20px;
 }
-
-
 
 .form input, form select, .form button {
     display: block;
@@ -631,10 +628,6 @@ h3 {
     font-weight: bold;
 }
 
-/*footer*/
-
-/* Estilização do footer */
-
 /* Estilo base do footer */
 .footer {
     background-color: #333; /* Cor de fundo */
@@ -723,7 +716,6 @@ h3 {
 }
 
 /* Estilo da seção do rodapé inferior */
-/* Estilo da seção do rodapé inferior */
 .footer-bottom {
     background-color: #222; /* Cor de fundo */
     color: #fff; /* Cor do texto */
@@ -756,8 +748,6 @@ h3 {
 .footer-links span a:hover {
     color: #fff; /* Cor ao passar o mouse */
 }
-
-
 
 /* Estilo responsivo */
 @media (max-width: 768px) {
